@@ -1,0 +1,33 @@
+🎵 INSTRUÇÕES PARA ADICIONAR MÚSICA DE FUNDO
+
+Para adicionar música de fundo à página:
+
+1. Coloque seu arquivo de música aqui nesta pasta (audio/)
+
+2. O arquivo deve se chamar:
+   - background.mp3 (recomendado)
+   OU
+   - background.ogg
+
+3. Formatos suportados:
+   - MP3 (mais compatível)
+   - OGG (melhor qualidade, menos compatível)
+
+4. Recomendações:
+   - Use uma música instrumental suave
+   - Duração: 2-4 minutos (a música fica em loop)
+   - Volume: deixe o volume do arquivo em um nível médio
+   - Tamanho: tente manter abaixo de 5MB para carregamento rápido
+
+5. Após adicionar o arquivo:
+   - A música começará a tocar automaticamente quando clicar em "Entrar"
+   - Use os controles no canto inferior direito para ajustar volume ou pausar
+
+DICA: Você pode converter qualquer música para MP3 usando ferramentas online como:
+- CloudConvert (https://cloudconvert.com/)
+- Online Audio Converter (https://online-audio-converter.com/)
+
+Divirta-se! 🎉
+
+
+
