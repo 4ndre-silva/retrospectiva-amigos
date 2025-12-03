@@ -545,74 +545,17 @@ h2 {
 
 .ranking-card ul li {
   position: relative;
-  padding-left: 2.8rem;
-  padding-top: 0.25rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
-  line-height: 1.5;
-  min-height: 2.2rem;
-}
-
-.ranking-card ul li::before {
-  content: '';
-  position: absolute;
-  left: 0.4rem;
-  top: 0.35rem;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.18);
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  z-index: 3;
-  box-shadow: 0 0 8px rgba(77, 226, 255, 0.3);
-}
-
-.ranking-card ul li::after {
-  content: '';
-  position: absolute;
-  left: 1.6rem;
-  top: 0.7rem;
-  height: 4px;
-  width: 0;
-  border-radius: 999px;
-  background: var(--gradient-primary);
-  opacity: 0.9;
-  z-index: 2;
-  box-shadow: 0 0 8px rgba(77, 226, 255, 0.5);
+  line-height: 1.6;
+  list-style: none;
 }
 
 .ranking-section.timeline-active .ranking-card ul li {
   opacity: 1;
-}
-
-.ranking-section.timeline-active .ranking-card ul li::after {
-  animation: fillBar 0.9s forwards ease-out;
-}
-
-.ranking-section.timeline-active .ranking-card ul li:nth-child(2)::after {
-  animation-delay: 0.1s;
-}
-
-.ranking-section.timeline-active .ranking-card ul li:nth-child(3)::after {
-  animation-delay: 0.2s;
-}
-
-.ranking-section.timeline-active .ranking-card ul li:nth-child(4)::after {
-  animation-delay: 0.3s;
-}
-
-.ranking-section.timeline-active .ranking-card ul li:nth-child(5)::after {
-  animation-delay: 0.4s;
-}
-
-@keyframes fillBar {
-  from {
-    width: 0;
-  }
-  to {
-    width: calc(100% - 2.8rem);
-  }
 }
 
 .oscars-grid {
@@ -1485,12 +1428,6 @@ section {
     height: 14px;
   }
   
-  .ranking-card ul li::after {
-    left: 1.8rem;
-    top: 1rem;
-    height: 5px;
-  }
-  
   .ranking-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -1498,12 +1435,6 @@ section {
   
   .ranking-card {
     padding: 1.25rem;
-  }
-  
-  @keyframes fillBar {
-    to {
-      width: calc(100% - 3rem);
-    }
   }
 }
 
