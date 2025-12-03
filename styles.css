@@ -545,13 +545,19 @@ h2 {
 
 .ranking-card ul li {
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
   line-height: 1.6;
   list-style: none;
+}
+
+.ranking-card ul li::before,
+.ranking-card ul li::after {
+  display: none !important;
+  content: none !important;
 }
 
 .ranking-section.timeline-active .ranking-card ul li {
@@ -1412,20 +1418,18 @@ section {
   
   /* Ajustes dos rankings no mobile */
   .ranking-card ul li {
-    padding-left: 3rem;
+    padding-left: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.75rem;
     margin-bottom: 0.75rem;
-    min-height: 2.8rem;
     font-size: 0.9rem;
     line-height: 1.6;
   }
   
-  .ranking-card ul li::before {
-    left: 0.5rem;
-    top: 0.6rem;
-    width: 14px;
-    height: 14px;
+  .ranking-card ul li::before,
+  .ranking-card ul li::after {
+    display: none !important;
+    content: none !important;
   }
   
   .ranking-grid {
